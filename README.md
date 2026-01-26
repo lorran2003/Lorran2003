@@ -176,7 +176,7 @@ Atualmente, estou desenvolvendo e aprimorando minhas habilidades técnicas por m
 <img 
     align="left"  
     style="padding-right: 10px;"
-    src="https://github-readme-stats.vercel.app/api?username=lorran2003&show_icons=true&theme=tokyonight&include_all_commits=true)" />/>
+    src="https://github-readme-stats.vercel.app/api?username=lorran2003&show_icons=true&theme=tokyonight&include_all_commits=true)" />
 
 <img 
     align="left"  
@@ -186,7 +186,7 @@ Atualmente, estou desenvolvendo e aprimorando minhas habilidades técnicas por m
 
 <img 
     align="left"  
-    style="padding-right: 10px; padding-top: 10px;"
+    style="padding-right: 10px; padding-top: 20px;"
     src="https://github-readme-stats.vercel.app/api/wakatime?username=LorranLazarini&theme=tokyonight" 
     />
 
