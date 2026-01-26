@@ -184,10 +184,4 @@ Atualmente, estou desenvolvendo e aprimorando minhas habilidades técnicas por m
     src="https://github-readme-stats.vercel.app/api/top-langs/?username=lorran2003&&hide_progress=true&theme=tokyonight"
     />
 
-<img 
-    align="left"  
-    style="padding-right: 10px; padding-top: 20px;"
-    src="https://github-readme-stats.vercel.app/api/wakatime?username=LorranLazarini&theme=tokyonight" 
-    />
-
 </p>
