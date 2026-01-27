@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap');
+
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --background-color: #f8f9fa;
+    --container-bg: #ffffff;
+    --text-color: #34495e;
+    --heading-font: 'Poppins', sans-serif;
+    --body-font: 'Lora', serif;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    --border-radius: 10px;
+}
+
+body {
+    font-family: var(--body-font);
+    font-size: x-large;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    width: 100vw;
+    margin: auto;
+    background-color: var(--container-bg);
+    padding: 40px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 3px solid var(--secondary-color);
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-family: var(--heading-font);
+    font-weight: 700;
+    font-size: 3em;
+    color: var(--primary-color);
+    margin: 0;
+    letter-spacing: -1px;
+}
+
+header p {
+    margin: 8px 0;
+    font-size: 1.1em;
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    font-weight: 300;
+}
+
+.contact-info {
+    margin-top: 15px;
+}
+
+.contact-info p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    font-weight: 600;
+    font-size: 1.8em;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--background-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+.summary p {
+    font-size: 1.1em;
+    font-style: italic;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill-category {
+    background-color: #fdfdfd;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid var(--secondary-color);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.skill-category h3 {
+    margin-top: 0;
+    font-family: var(--heading-font);
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 1.3em;
+}
+
+.skill-category ul {
+    margin-top: 10px;
+}
+
+.skill-category ul li {
+    padding: 4px 0;
+    border: none;
+    font-size: 1em;
+}
+
+.education ul{
+    margin-top: 50px;
+}
+
+.projects ul li,
+.experience ul li,
+.education ul li,
+.certifications ul li {
+    padding-left: 20px;
+    position: relative;
+}
+
+.projects ul li::before,
+.experience ul li::before,
+.education ul li::before,
+.certifications ul li::before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1;
+}
+
+.projects a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+.experience strong,
+.education strong {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.languages .language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.languages .level {
+    font-family: var(--heading-font);
+    font-weight: 600;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
