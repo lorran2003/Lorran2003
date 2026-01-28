@@ -186,7 +186,7 @@ Atualmente, estou desenvolvendo e aprimorando minhas habilidades técnicas por m
 
 <img 
     align="left"  
-    style="padding-right: 10px; padding-top: 10px;"
+    style="padding: 10px 0 0 0;"
     src="https://github-readme-stats.vercel.app/api/wakatime?username=LorranLazarini&theme=tokyonight" 
     />
 
