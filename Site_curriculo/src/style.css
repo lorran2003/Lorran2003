@@ -22,7 +22,8 @@
      line-height: 1.6;
      color: var(--text-color);
      background-color: var(--bg-color);
-     max-width: 900px;
+     max-width: 90vw;
+     padding: 20px;
      margin: 0 auto;
  }
 
