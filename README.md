@@ -176,18 +176,18 @@ Atualmente, estou desenvolvendo e aprimorando minhas habilidades técnicas por m
 <img 
     align="left"  
     style="padding-right: 10px;"
-    src="https://github-readme-stats.vercel.app/api?username=lorran2003&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Lorran Lazarini (lorran2003)" />
+    src="https://github-stats-extended.vercel.app/api?username=lorran2003&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="Lorran Lazarini (lorran2003)" />
 
 <img 
     align="left"  
     style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=lorran2003&&hide_progress=true&theme=tokyonight"
+    src="https://github-stats-extended.vercel.app/api/top-langs/?username=lorran2003&&hide_progress=true&theme=tokyonight"
     />
 
 <img 
     align="left"  
     style="padding: 10px 0 0 0;"
-    src="https://github-readme-stats.vercel.app/api/wakatime?username=LorranLazarini&theme=tokyonight" 
+    src="https://github-stats-extended.vercel.app/api/wakatime?username=LorranLazarini&theme=tokyonight" 
     />
 
 </p>
